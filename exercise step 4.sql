@@ -75,12 +75,3 @@ SELECT member_id,
 AS buy_to_sell_ratio
 FROM trading.transactions
 GROUP BY member_id;
-
-#For each member_id, which month had the highest total Ethereum quantity sold?
-
-
-
-
-
-
-
