@@ -1,9 +1,3 @@
-SELECT * FROM trading.prices
-WHERE ticker = 'BTC' LIMIT 3;
-
-SELECT * FROM trading.prices
-WHERE ticker = 'ETH' LIMIT 3;
-
 #How many total records do we have in the trading.prices table?#
 SELECT COUNT(*) AS total_records FROM trading.prices;
 
@@ -80,23 +74,3 @@ SELECT ticker,
 FROM trading.prices
 WHERE EXTRACT(YEAR FROM market_date) = 2020
 GROUP BY ticker; 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
