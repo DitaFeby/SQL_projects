@@ -1,1 +1,1 @@
-# SQL_projects
+# SQL_practices
